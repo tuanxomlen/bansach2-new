@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Login</title>
+  <style>
+    body { font-family: Arial; padding: 40px; }
+    .form-box { width: 300px; margin: auto; }
+    input { width: 100%; padding: 8px; margin: 8px 0; }
+    button { width: 100%; padding: 10px; background: green; color: white; border: none; }
+    .msg { margin-top: 10px; font-weight: bold; }
+  </style>
+</head>
+
+<body>
+  <div class="form-box">
+    <h2>Login</h2>
+    <input type="text" id="username" placeholder="Tài khoản">
+    <input type="password" id="password" placeholder="Mật khẩu">
+    <button onclick="login()">Đăng nhập</button>
+
+    <div class="msg" id="msg"></div>
+  </div>
+
+  <script src="login.js"></script>
+</body>
+</html>
